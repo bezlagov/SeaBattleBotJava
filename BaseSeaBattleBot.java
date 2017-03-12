@@ -20,17 +20,14 @@ public class BaseSeaBattleBot implements ISeaBattleBot
 
     protected boolean CheckSell(int y, int x) 
     {
-        if(_enenyBattlefield[x][y]==0)
-        {
             return true;
-        }
-        return false;
+	// Todo logic of check cell
     }
 
     
     public void UpdateBattlefieldData(int y, int x, int result)
     {
-        _enenyBattlefield[x][y] = result;
+        _enenyBattlefield[y][x] = result;
         lastShotStatus = result;
     }
 }
