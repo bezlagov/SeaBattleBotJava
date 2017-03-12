@@ -16,7 +16,7 @@ public class RandomSeabattleBot  extends BaseSeaBattleBot
                     int i = random.nextInt(10);
                     int j = random.nextInt(10);
 
-                    if(CheckSell(j,i))
+                    if(Check—ell(j,i))
                     {
                         _lastShot[0]=i;
                         _lastShot[1]=j;

@@ -9,7 +9,7 @@ public class LinerSeabattleBot extends BaseSeaBattleBot
         {
             for (int j = 0; j < 10; j++) 
             {
-                if(CheckSell(j,i))
+                if(CheckÑell(j,i))
                 {
                     _lastShot[0]=i;
                     _lastShot[1]=j;

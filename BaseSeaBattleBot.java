@@ -18,7 +18,7 @@ public class BaseSeaBattleBot implements ISeaBattleBot
         return null;
     }
 
-    protected boolean CheckSell(int y, int x) 
+    protected boolean Check—ell(int y, int x) 
     {
             return true;
 	// Todo logic of check cell
